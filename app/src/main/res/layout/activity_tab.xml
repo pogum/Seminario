@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_below="@+id/tab"
     tools:context=".Tab">
-
-
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +15,7 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/gato_tab"
             android:text="Gato"
             android:icon="@drawable/ic_launcher_foreground"
             />
@@ -23,12 +23,14 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/leopardo_tab"
             android:text="Gato-leopardo"
             android:icon="@drawable/ic_launcher_foreground"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/jaguatirica_tab"
             android:text="Jaguatirica"
             android:icon="@drawable/ic_launcher_foreground"/>
 

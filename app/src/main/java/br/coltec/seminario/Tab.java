@@ -3,6 +3,7 @@ package br.coltec.seminario;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.os.Bundle;
 
 public class Tab extends AppCompatActivity {
@@ -14,5 +15,6 @@ public class Tab extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+
     }
 }

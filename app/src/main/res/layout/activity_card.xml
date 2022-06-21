@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:scrollbarSize="10dp"
+
+    android:fillViewport="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,6 +21,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/cinza"
         android:focusable="true"
         android:clickable="true">
 
@@ -40,6 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gato doméstico"
+                    android:textColor="@color/pretocinza"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
@@ -92,8 +105,11 @@
         android:id="@+id/card2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:layout_below="@id/card1"
+        android:layout_margin="8dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/cinza"
         android:focusable="true"
         android:clickable="true">
 
@@ -108,6 +124,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/gatoleopardo"
+                android:textColor="@color/pretocinza"
                 android:scaleType="fitStart"
                 android:contentDescription="Imagem de um leopardo em seu habitat natural"
                 />
@@ -123,6 +140,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gato-leopardo-asiático"
+                    android:textColor="@color/pretocinza"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
@@ -174,8 +192,11 @@
         android:id="@+id/card3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
         android:layout_below="@id/card2"
+        android:layout_margin="8dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/cinza"
         android:focusable="true"
         android:clickable="true">
 
@@ -251,4 +272,7 @@
 
     </com.google.android.material.card.MaterialCardView>
 
+
 </RelativeLayout>
+
+</ScrollView>
